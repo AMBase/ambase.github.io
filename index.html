@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/auth-form.css">
+</head>
+<body class="page">
+
+<form class="page__auth-form auth-form" action="" method="POST" enctype="application/x-www-form-urlencoded">
+
+    <div class="auth-form__header">
+        <div class="auth-form__header-row auth-form__header-row_right">
+            <a href="/" class="auth-form__sign-up">Зарегистрироваться</a>
+        </div>
+
+        <div class="auth-form__header-row">
+            <div class="auth-form__logo">
+                <img class="auth-form__logo-img" src="img/logo.png" alt="" title=""/>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="auth-form__body">
+        <div class="auth-form__body-description">Войдите, чтобы продолжить</div>
+
+        <div class="auth-form__field">
+            <input class="auth-form__field-input" type="text" name="login" id="login" autocapitalize="off" autocomplete="username" required>
+            <label class="auth-form__field-label" for="login">Введите логин, почту или телефон</label>
+        </div>
+
+        <button class="auth-form__button">Войти</button>
+
+    </div>
+
+</form>
+</body>
+</html>
